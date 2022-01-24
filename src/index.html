@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Palmer's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../tailwind.css">
+</head>
+<body class="bg-body font-poppins pb-12">
+    <header class="pt-6 pb-2 text-white">
+        <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <div class="text-lg font-bold">Robert Palmer</div>
+            <div class="hidden md:flex space-x-12 items-center">
+                <a href="#" class="text-selected-text">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#project">Current Project</a>
+                <a href="#hire"><button class="px-6 py-2 bg-theme font-bold">Hire Me</button></a>
+            </div>
+            <div class="md:hidden">
+                <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container text-white mt-12 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <div class="flex flex-wrap md:flex-nowrap">
+
+            <nav class="inline-block lg:mr-24 lf:w-4 fixed left-percentage hidden xl:block">
+                <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
+                    <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
+                    </a>
+                    <a href="#about" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">About</span>
+                    </a>
+                    <a href="#project" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Projects</span>
+                    </a>
+                    <a href="#hire" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Hire</span>
+                    </a>
+                </div>
+            </nav>
+
+            <div class="flex flex-wrap mx-auto lg:ml-15 justify-center md:justify-start max-w-xl mt-0 md:my-36">
+                <h1 class="text-special font-bold text-5xl md:text-6xl lg:text-7xl mx-auto md:text-left">The<br>beginning</text><br>of a new<br>chapter</h1>
+            </div>
+            <img class="w-4/5 mx-auto absolute -mt-6 md:mt-8 -z-1" src='../img/ProfileFin.jpg' alt='robMountain' >
+        </div> 
+    </div>
+
+<!-----About------>
+        <div class="container mt-64 md:mt-96 text-white px-8 md:px-14 lg:px-40 mx-auto">
+            <h1 id="about" class="text-3xl font-bold text-center">About Me</h1>
+            <p class="mt-16">Hello and thank you for taking a look.<br><br>My name is Rob Palmer and I'm a budding developer currently based in Portland, OR.
+                <br><br>
+                I spent my career in the financial sales world, but it's time for a transition.
+                I've gotten the opportunity to learn about the investment universe while developing my 
+                communication skills.
+                <br><br>
+                I found a good deal of success here, which you may see in my resume. However it became extremely repetetive
+                with no change in sight down the career pipeline, and I knew I wanted more out of my career. I left to spend time traveling
+                and working on myself.
+                <br><br>
+                <span class="text-special text-xl">
+                In doing so, I discovered the options available to learn how to become a developer.
+                </span>
+                <br><br>
+                Some close friends of mine are developers, who of course tout the benefits of working as 
+                developers, encouraged me to give it a shot. They would say things like "You'd be really good at this,"
+                or "You've got the brain for it." I began my journey with a program called "Learn JavaScript
+                the Hard Way" taught by Zed A. Shaw.
+                <br><br>
+                I quickly saw the appeal and found lots of enjoyment in the problem solving process.
+                I joined a coursera course where I recieved a certificate in full-stack development, went through
+                the freecodecamp.org classes on front-end development, and most recently have been utilizing
+                Treehouse as a resource for learning and practicing.
+                <br><br>
+                I've realized (and am excited by) the fact that there is <span class="text-special text-bold">
+                    there is always more to learn
+                </span>. I'm motivated by accomplishment and progress. My previous career was fulfilling,
+                but the ladder was relatively short, and sales can only be so intellectually stimulating.
+                I'm thrilled with the discovery that this is something I enjoy, and my current goal is to 
+                get my foot in the door with a company who can find good use for a <span class="text-special text-bold">motivated,
+                    disciplined, life-long-learner with a passion for learning and success
+                </span>.
+            </p>
+        </div>
+
+    <!--Projects-->
+    <div class="container mt-36 text-white justify-center px-8 md:px-14 lg:px-40 mx-auto">
+        <h1 id="project" class="text-3xl font-bold text-center mx-auto">Current Project</h1>
+        <div class="container mt-24 flex flex-wrap md:justify-between justify-center items-center mx-auto px-8 lg:px-12 w-full">
+            <a href="https://robbpalmer.github.io/fakementum/" target="_blank" rel="noreferrer">
+                <img src="../img/fakementum-icon.png" class="md:w-60 md:h-60 w-36 h-36 items-center md:justify-self-start">
+            </a>
+            <p class="md:w-1/2 mt-12 md:mt-0">
+                Tutorials, tutorials, tutorials...<br><br>
+                I realized after a short while that the best way for me to challenge myself was
+                to make something on my own. One of my favorite browser extensions is Momentum, a 
+                customized homepage. It's a weather app, clock, personal greeting, 
+                quote generator, background image generator, and a todo-list all in one, so I figured recreating this on my own with my newfound knowledge of
+                <span class="text-special text-bold">HTML, CSS, JavaScript</span> and <span class="text-special text-bold">React</span>
+                would allow me to learn quickly, along with showcase several things at once. It's my fake version of Momentum.
+                <br><br>
+                I'm calling it Fakementum.
+            </p>
+        </div>
+        <div class="w-full flex justify-center mt-12">
+            <a href="https://github.com/robbpalmer" target="_blank" rel="noreferrer">
+                <button class="flex items-center px-6 py-2 mt-12 bg-theme font-bold">My Github</button>
+            </a>
+        </div>
+    </div>
+
+
+    <!--Form-->
+    <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="w-full">
+            <h2 id="hire" class="secondary-title text-white">Hire me</h2>
+            <p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
+
+            <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+                <form class="space-y-12 text-white" action="https://formspree.io/f/xknyoeaz" method="POST">
+                    <div>
+                        <label class="text-white block mb-6 text-xl font-bold">Name</label>
+                        <input class="w-full border border-input-border bg-input px-4 py-4">
+                    </div>
+                    <div>
+                        <label class="text-white block mb-6 text-xl font-bold">Email</label>
+                        <input type="email" name="_replyto" class="w-full border border-input-border bg-input px-4 py-4">
+                    </div>
+                    <div>
+                        <label class="text-white block mb-6 text-xl font-bold">Message</label>
+                        <textarea name="message" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
+                    </div>
+                    <button type="submit" class="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
+                </form>
+
+                <div class="mt-12">
+                    <!-- Contact info -->
+                    <p class="text-secondary">360-910-0534</p>
+                    <a href="mailto:robbpalmer2@gmail.com" class="text-secondary underline mt-3 block">Email Me</a>
+                </div>
+                
+            </div>
+
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+
+    <!-- <h1 class="center">Rob Palmer</h1>
+    <h2>Learning Hub</h2>
+    <div class= "bg-blue">
+        <h3>
+            Polishing Weather Component... <text>January 8th, 2022</text>
+        </h3>
+        <p>
+            Learning quickly to be careful with words like "finalizing" on projects. 
+            <br>
+            <br>
+            Using the user's data for the API URL was calling the API at least 3 times upon rendering, 
+            which was driving me crazy, (mostly because I'm on the free version which only allows a certain number of 
+            calls per day). I realized that the useEffect's second parameter caused the component to re-render 
+            every time the latitude or longitude state changed. I discovered in the dev tools that each call had 
+            just a slightly different URL as the lat and lon seemed to be calibrating my exact location.
+            <br>
+            <br>
+            My solution to this was to use Math.round to shorten the variables to just a few decimal places that 
+            will still get accurate weather data. Voila. Just one call.
+            <br>
+            <br>
+            However, still more issues to delve into on Monday. I need to catch the 429 error for when I'm out of calls 
+            for the day. Haven't worked with Axios and asynchronous code a whole lot yet, so this is where I dive in to 
+            account for all possible errors to get this component, along with my other axios calls, air tight.
+        </p>
+        <h3>
+            Finalizing Weather Component <text>January 7th, 2022</text>
+        </h3>
+        <p>
+            This is my first entry, but it was recently recommended to track my daily learning 
+            so I can see my progress over time, look back on something I learned if I need a refresher, and to 
+            demonstrate my commitment to learning for potential employers. <br><br>
+            I'm working on a React project I'm calling "Fakementum" since it's just my own version of a 
+            Chrome extension called "Momentum." I currently have it set to randomize a background from r/Earthporn's top 
+            100 results, displaying it's source at the top left, a random quote from r/Quotes at the bottom, and the user's 
+            current location's weather at the top right. <br><br>
+            Just to build and confirm funcitonality, I had manually entered Portland, Oregon's latitude and longitude 
+            in the API URL for the axios call, so today I learned how to collect the user's location data,
+            update state for both latitude and longitude, and use those as variables inside the API URL call.
+        </p>
+    </div> -->
+</body>
+</html>
